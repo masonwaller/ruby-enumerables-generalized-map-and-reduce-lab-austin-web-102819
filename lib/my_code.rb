@@ -8,7 +8,7 @@ def map(array)
  end
 return arrayy
 end
-def reduce(array, value=0)
+def reduce(array, value=nil)
   if value
     total= value
     i=0 
